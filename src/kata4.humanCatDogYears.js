@@ -2,7 +2,7 @@ const humanCatDogYears = number => {
   let catAge;
   let dogAge;
 
-  if (number <= 0 || typeof number != "number") {
+  if (number <= 0 || typeof number !== "number") {
     return [0, 0, 0];
   }
 
